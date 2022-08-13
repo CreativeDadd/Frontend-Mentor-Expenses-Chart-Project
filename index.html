@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">  
+  <script defer src="app.js" ></script>
+</head>
+<body>
+  <div class="container">
+    <div class="main-wrapper">
+    <!-- heading start here -->
+    <div class="header">
+      <div class="balance">
+       <p>My balance</p>
+        <h2>$921.48</h2>
+      </div>
+      <svg class="svg1"  width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
+    </div>
+    <!-- heading ends here -->
+    
+    <div class="chart_wrapper">
+      <h2>Spending - Last 7 days</h2>
+    <!-- main chart starts here -->
+      <div class="main_chart">
+          <!-- Monday chart -->
+        <div class="days day1"> 
+          <div class="active_state amount-for-each"></div>
+          <div class="mon day"></div>
+          <p>mon</p>
+        </div>
+          <!-- Tuesday chart -->
+        <div class="days day2">
+          <div class="amount-for-each"></div>
+          <div  class="tue day"></div>
+          <p>tue</p>
+        </div>
+          <!-- wednesday chart -->
+        <div class="days day3">
+          <div class="amount-for-each"></div>
+          <div class="wed"></div>
+          <p>wed</p>
+        </div>
+          <!-- Thusday chart -->
+        <div class="days day4">
+          <div class="amount-for-each"></div>
+          <div class="thu"></div>
+          <p>thu</p>
+        </div>
+          <!-- friday chart -->
+        <div class="days day5">
+          <div class="amount-for-each"></div>
+          <div class="fri"></div>
+          <p>fri</p>
+        </div>
+          <!-- Saturday chart -->
+        <div class="days day6">
+          <div class="amount-for-each"></div>
+          <div class="sat"></div>
+          <p>sat</p>
+        </div>
+            <!-- sunday chart -->
+        <div class="days day7">
+          <div class="amount-for-each"></div>
+          <div class="sun"></div>
+          <p>sun</p>
+        </div>
+    </div>
+    <hr>
+        <!-- main chart ends here -->
+
+        <!-- summary starts here -->
+  <div class="summary">
+    <div class="this-month">
+      <p> Total this month</p>
+      <h1>$478.33</h1>
+    </div>
+
+    <div class="last-month">
+      <h4>+2.4%</h4>
+      <p> from last month</p>
+    </div>
+  </div>
+
+</div>
+</div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">CreativeDadd</a>.
+  </div>
+</div>
+
+</body>
+</html>
